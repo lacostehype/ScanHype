@@ -12,6 +12,15 @@ Não tem muito segredo você passa o Domínio ou o IP e q tool faz a sua parte
 
 # Método de instalação!
 TERMUX : 
+
 pkg install git -y
+
 pkg install python3 -y
-git clone 
+
+git clone https://github.com/lacostehype/ScanHype
+
+cd ScanHype 
+
+chmod +X scanHype.py
+
+python3 scanhype.py
