@@ -23,6 +23,8 @@ by: Lacoste Hype
 
 XV='\033[1;37m'     # Branco
 XXI='\033[0;0m'      # Remover
+verde='\033[1;32m' # Verde
+
 
 portas = (20, 21, 22, 23, 25, 53, 67, 68, 80, 110, 123, 156, 443, 8080, 3306, 3389)
 
@@ -35,7 +37,7 @@ try:
         sock.settimeout(0.5)
         resp = sock.connect_ex((ip, porta))
         if resp == 0:
-            print ("PORTA >>>", porta, "ABERTA")
+            print (f"{XV}PORTA >>>{XXI}", porta, "{verde}ABERTA{XXI}")
         
 except Exception as erro:
     print (erro)
