@@ -21,11 +21,13 @@ by: Lacoste Hype
 
 """)
 
+XV='\033[1;37m'     # Branco
+XXI='\033[0;0m'      # Remover
 
 portas = (20, 21, 22, 23, 25, 53, 67, 68, 80, 110, 123, 156, 443, 8080, 3306, 3389)
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-ip = input("[+] Digite o IP/DOMÍNIO: ")
+ip = input(f"{XV}[+] Digite o IP/DOMÍNIO{XXI}: ")
 
 try: 
     for porta in portas:
