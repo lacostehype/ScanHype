@@ -21,6 +21,8 @@ by: Lacoste Hype
 
 """)
 
+global XV,XXI,VERD
+
 XV='\033[1;37m'     # Branco
 XXI='\033[0;0m'      # Remover
 VERD='\033[1;32m' # Verde
