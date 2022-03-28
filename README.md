@@ -1,5 +1,5 @@
 # ScanHype
-[Logo of the project](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMGNJ5ozDf83wO3tzQSQcAOOYlKOL8kypZg&usqp=CAU)
+[Logo of the project](https://photos.app.goo.gl/FZxNQR5uDYytzABk6)
 
 
 Um simples portscan feito em python ainda não esta 100%
