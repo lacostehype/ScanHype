@@ -24,7 +24,7 @@ by: Lacoste Hype
 """)
 
 
-portas = (20, 21, 22, 23, 25, 53, 67, 68, 80, 110, 123, 156, 443, 3389)
+portas = (20, 21, 22, 23, 25, 53, 67, 68, 80, 110, 123, 156, 443, 8080, 3309, 3389)
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 ip = input("[+] Digite o IP/DOMÍNIO: ")
