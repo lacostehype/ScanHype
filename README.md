@@ -1,10 +1,9 @@
 # Scan Hype
 
-[Banner Do script](https://photos.app.goo.gl/wfbUSJLaHzeg2wiF9)
-
-
 Um simples portscan feito em python ainda não esta 100%
 porém espero que gostem 😃
+
+
 
 # ! Método de Uso:
 Não tem muito segredo você passa o Domínio ou o IP e a tool faz a sua parte
