@@ -1,8 +1,6 @@
 import socket
-import os
 
-os.system("clear")
-
+print("\033[H\033[2J\033[3J")
 
 print ("""
 ⠄⠄⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿⠄
