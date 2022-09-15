@@ -39,7 +39,7 @@ try:
         sock.settimeout(0.5)
         resp = sock.connect_ex((ip, porta))
         if resp == 0:
-            print (f"{XV}PORTA >>>{XXI}", porta, "{VERD}ABERTA{XXI}")
+            print (f"{XV}PORTA >>>{XXI}", porta, f"{VERD} ABERTA {XXI}")
         
 except Exception as erro:
     print (erro)
